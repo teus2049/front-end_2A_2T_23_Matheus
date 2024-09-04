@@ -1,0 +1,41 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 0.3s;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.product button:hover {
+    background-color: #00ff00;
+    transform: scale(1.05);
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
